@@ -2,7 +2,6 @@
   "name": "react-tinderable",
   "version": "0.1.8",
   "description": "Tinder-like swipeable component in React",
-  "license": "MIT",
   "main": "lib/tinderable.js",
   "scripts": {
     "build": "jsx --extension jsx src/ lib/",
