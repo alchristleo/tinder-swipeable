@@ -1,4 +1,4 @@
-# react-tinderable
+# tinder-swipeable with reactjs
 
 Clone the repo
 
