@@ -5,8 +5,8 @@
 Clone the repo
 
 ```
-git clone git@github.com:dgellow/react-tinderable.git
-cd react-tinderable
+git clone https://github.com/alchristleo/tinder-swipeable.git
+cd tinder-swipeable
 ```
 
 Install dependencies
