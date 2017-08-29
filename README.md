@@ -1,7 +1,5 @@
 # react-tinderable
 
-## Dev
-
 Clone the repo
 
 ```
