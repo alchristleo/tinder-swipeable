@@ -6,41 +6,42 @@ var React = require('react'),
 
 var cardsData = [
     {
-        title: 'RADITYA, ARVIN',
-        text: 'BINUS SQUARE MOST BUSY GUY',
+        title: 'TITLE',
+        text: 'TEXT',
         image: 'portrait-1.jpg',
         id: '1'
     },
     {
-        title: 'ALFIAN',
-        text: 'BINUS SQUARE PROFESSIONAL MEMER',
+        title: 'TITLE',
+        text: 'TEXT',
         image: 'portrait-2.jpg',
         id: '2'
     },
     {
-        title: 'GUNAWAN, ANTHONY',
-        text: 'BINUS SQUARE PROFESSIONAL VVEABOO',
-        image: 'portrait-6.jpg',
+        title: 'TITLE',
+        text: 'TEXT',
+        image: 'portrait-3.jpg',
         id: '3'
     },
     {
-        title: 'SADELI, ROBERTO',
-        text: 'BINUS SQUARE PROFESSIONAL DOTA2 PLAYER',
-        image: 'portrait-5.jpg',
+        title: 'TITLE',
+        text: 'TEXT',
+        image: 'portrait-4.jpg',
         id: '4'
     },
     {
-        title: 'BYUNAHYEONG',
-        text: 'KOREAN PROFESSIONAL MODEL',
-        image: 'portrait-4.jpg',
+        title: 'TITLE',
+        text: 'TEXT',
+        image: 'portrait-5.jpg',
         id: '5'
     },
     {
-        title: 'DOTAGASM',
-        text: 'PROFESSIONAL DOTA2 STREAMER',
-        image: 'portrait-3.jpg',
+        title: 'TITLE',
+        text: 'TEXT',
+        image: 'portrait-6.jpg',
         id: '6'
     }
+
 ];
 
 ReactDOM.render(
@@ -323,8 +324,8 @@ var Tinderable = React.createClass({displayName: "Tinderable",
 
         return (
             React.createElement("div", null,
-                React.createElement("div", {className: classesAlertLeft}, "REAL"),
-                React.createElement("div", {className: classesAlertRight}, "FAKE"),
+                React.createElement("div", {className: classesAlertLeft}, "NO"),
+                React.createElement("div", {className: classesAlertRight}, "YES"),
                 React.createElement("div", {id: "cards"},
                     cards
                 )
